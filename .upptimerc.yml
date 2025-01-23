@@ -3,19 +3,100 @@ owner: upptime # Your GitHub organization or username, where this repository liv
 repo: upptime # The name of this repository
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Test Broken Site
-    url: https://thissitedoesnotexist.koj.co
-  - name: IPv6 test
-    url: forwardemail.net
-    port: 80
-    check: "tcp-ping"
-    ipv6: true
+  - name: Accounts
+    url: https://qa.inframarket.cloud/accounts/ping
+  - name: AMS
+    url: https://qa.inframarket.cloud/ams/ping
+  - name: BIS
+    url: https://qa.inframarket.cloud/bis/ping
+  - name: Carts
+    url: https://qa.inframarket.cloud/carts/ping
+  - name: Cheque
+    url: https://qa.inframarket.cloud/cheque/ping
+  - name: Communication
+    url: https://qa.inframarket.cloud/communication/ping
+  - name: Coupons
+    url: https://qa.inframarket.cloud/coupons/ping
+  - name: Customers
+    url: https://qa.inframarket.cloud/customers/ping
+  - name: Companies
+    url: https://qa.inframarket.cloud/companies/ping
+  - name: DAVS
+    url: https://qa.inframarket.cloud/davs/ping
+  - name: Deals
+    url: https://qa.inframarket.cloud/deals/ping
+  - name: Discount
+    url: https://qa.inframarket.cloud/discount/ping
+  - name: Enum Integration
+    url: https://qa.inframarket.cloud/enum-integration/ping
+  - name: ERP Integration
+    url: https://qa.inframarket.cloud/erp-integration/ping
+  - name: Fulfilment
+    url: https://qa.inframarket.cloud/fulfilment/ping
+  - name: Identity
+    url: https://qa.inframarket.cloud/identity/ping
+  - name: Influencers
+    url: https://qa.inframarket.cloud/influencers/ping
+  - name: Inventory
+    url: https://qa.inframarket.cloud/inventory/ping
+  - name: Invoices
+    url: https://qa.inframarket.cloud/invoices/ping
+  - name: KMS
+    url: https://qa.inframarket.cloud/kms/ping
+  - name: KYCs
+    url: https://qa.inframarket.cloud/kycs/ping
+  - name: Lead
+    url: https://qa.inframarket.cloud/lead/ping
+  - name: Location
+    url: https://qa.inframarket.cloud/location/ping
+  - name: Loyalty Orchestration
+    url: https://qa.inframarket.cloud/loyalty-orchestration/ping
+  - name: Loyalty
+    url: https://qa.inframarket.cloud/loyalty/ping
+  - name: OMS
+    url: https://qa.inframarket.cloud/oms/ping
+  - name: Orders
+    url: https://qa.inframarket.cloud/orders/ping
+  - name: Payments
+    url: https://qa.inframarket.cloud/payments/ping
+  - name: PIS
+    url: https://qa.inframarket.cloud/pis/ping
+  - name: Payout
+    url: https://qa.inframarket.cloud/payout/ping
+  - name: PN Customers
+    url: https://qa.inframarket.cloud/pn/customers/ping
+  - name: Pricing
+    url: https://qa.inframarket.cloud/pricing/ping
+  - name: Products
+    url: https://qa.inframarket.cloud/products/ping
+  - name: Quotations
+    url: https://qa.inframarket.cloud/quotations/ping
+  - name: Search
+    url: https://qa.inframarket.cloud/search/ping
+  - name: Search Sync
+    url: https://qa.inframarket.cloud/search-sync/ping
+  - name: Serviceability
+    url: https://qa.inframarket.cloud/serviceability/ping
+  - name: Stores
+    url: https://qa.inframarket.cloud/stores/ping
+  - name: Suppliers
+    url: https://qa.inframarket.cloud/suppliers/ping
+  - name: TallyI
+    url: https://qa.inframarket.cloud/tallyi/ping
+  - name: Task
+    url: https://qa.inframarket.cloud/task/ping
+  - name: Tax
+    url: https://qa.inframarket.cloud/tax/ping
+  - name: Tickets
+    url: https://qa.inframarket.cloud/tickets/ping
+  - name: Trips
+    url: https://qa.inframarket.cloud/trips/ping
+  - name: Users
+    url: https://qa.inframarket.cloud/users/ping
+  - name: Vehicles
+    url: https://qa.inframarket.cloud/vehicles/ping
+  - name: Visit
+    url: https://qa.inframarket.cloud/visit/ping
 
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
